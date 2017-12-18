@@ -1,0 +1,20 @@
+{
+  "name": "materialgirl",
+  "description": "WordPress theme via Materializecss",
+  "main": "index.js",
+  "authors": [
+    "asathoor <asathoor@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.100.2"
+  }
+}

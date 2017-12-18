@@ -9,17 +9,14 @@
 
 get_header(); ?>
 
-<div class="container">
 	<div class="row">
 
 		<!-- THE CONTENT -->
-		<div class="col s12 m7 l6">
+		<div class="col s12 m7 l8 xl8">
 			<div id="primary" class="content-area">
 				<main id="main" class="site-main">
 		
 				<?php while ( have_posts() ) : the_post(); ?>
-				
-							
 				
 					<?php 
 					get_template_part( 'template-parts/content', get_post_type() );
@@ -38,12 +35,11 @@ get_header(); ?>
 		</div><!-- .col (content) -->
 		
 		<!-- THE SIDEBAR -->
-		<div class="col s12 m5">
-			<h3> SIDEBAR </h3>
-		
+		<div class="col s12 m5 l4 xl4">		
+
 			<?php get_sidebar(); ?>
-			
+
 		</div><!-- /sidebar -->
 	</div><!-- .row -->
-</div><!-- container -->
+
 <?php get_footer(); ?>

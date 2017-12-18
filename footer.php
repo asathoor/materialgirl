@@ -9,7 +9,7 @@
  * @package materialgirl
  */
 ?>
-
+</div><!-- .row -->
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
@@ -40,13 +40,32 @@
 
 <?php wp_footer(); ?>
 
+<!-- SCRIPTS -->
+
 	<!-- jquery -->
 	<script id="materialgirl-jquery" src="<?php echo get_template_directory_uri(); ?>/bower_components/jquery/dist/jquery.min.js"></script>
 	
 	<!-- materialize js -->
 	<script id="materialgirl-materialize-js" src="<?php echo get_template_directory_uri(); ?>/bower_components/materialize/dist/js/materialize.min.js"></script>
 
-
+	<!-- some scripts for effects -->
+	<script>
+		// the carousel
+	    $(document).ready(function(){
+    		$('.carousel').carousel();
+    	});
+    	
+    	// material box
+    	$(document).ready(function(){
+		    $('.materialboxed').materialbox();
+  		});
+  		
+  		// parallax
+  		$(document).ready(function(){
+	      $('.parallax').parallax();
+    	});
+      
+	</script>
 
 
 </body>

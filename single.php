@@ -34,12 +34,8 @@ get_header(); ?>
 			</div><!-- #primary -->
 		</div><!-- .col (content) -->
 		
-		<!-- THE SIDEBAR -->
-		<div class="col s12 m5 l4 xl4">		
-
 			<?php get_sidebar(); ?>
+		
 
-		</div><!-- /sidebar -->
-	</div><!-- .row -->
 
 <?php get_footer(); ?>

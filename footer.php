@@ -26,9 +26,25 @@
 			?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
+
+<div class="clear"></div>
+</div><!-- .container -->
+
+
 </div><!-- #page -->
 
+
+
 <?php wp_footer(); ?>
+
+	<!-- jquery -->
+	<script id="materialgirl-jquery" src="<?php echo get_template_directory_uri(); ?>/bower_components/jquery/dist/jquery.min.js"></script>
+	
+	<!-- materialize js -->
+	<script id="materialgirl-materialize-js" src="<?php echo get_template_directory_uri(); ?>/bower_components/materialize/dist/js/materialize.min.js"></script>
+
+
+
 
 </body>
 </html>

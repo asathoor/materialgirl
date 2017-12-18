@@ -121,8 +121,8 @@ function materialgirl_scripts() {
 	wp_enqueue_style( 'materialgirl-style', get_stylesheet_uri() );
 
 	// materializecss styles and javascripts
-	wp_enqueue_script( 'materializecss-css', get_template_directory_uri() . '/bower_components/materialize/dist/css/materialize.min.css' );
-	wp_enqueue_script( 'materializecss-js', get_template_directory_uri() . '/bower_components/materialize/dist/js/materialize.min.js', array(), '20171218', true );
+	//wp_enqueue_script( 'materializecss-css', get_template_directory_uri() . '/bower_components/materialize/dist/css/materialize.min.css' );
+	//wp_enqueue_script( 'materializecss-js', get_template_directory_uri() . '/bower_components/materialize/dist/js/materialize.min.js', array(), '20171218', true );
 
 	// original file
 	wp_enqueue_script( 'materialgirl-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );

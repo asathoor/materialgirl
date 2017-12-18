@@ -1,3 +1,4 @@
+<h1>Hello</h1>
 <?php
 /**
  * The template for displaying all single posts
@@ -10,8 +11,8 @@
 get_header(); ?>
 
 <div class="container">
-	<div class="row">
 
+	<div class="row">
 		<!-- THE CONTENT -->
 		<div class="col s12 m7 l6">
 			<div id="primary" class="content-area">
@@ -39,7 +40,6 @@ get_header(); ?>
 		
 		<!-- THE SIDEBAR -->
 		<div class="col s12 m5">
-			<h3> SIDEBAR </h3>
 		
 			<?php get_sidebar(); ?>
 			

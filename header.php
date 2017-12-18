@@ -16,16 +16,17 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 
 	<!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-	
-	 <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-	<?php wp_enqueue_script("jQuery"); // enable jQuery ?>
-
+	<!-- load _S settings before the Materialize stuff -->
 	<?php wp_head(); ?>
+	
+	<!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/bower_components/materialize/dist/css/materialize.min.css" type="text/css" rel="stylesheet">
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -61,4 +62,6 @@
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
+	
 	<div id="content" class="site-content">
+	<div class="container">

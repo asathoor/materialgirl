@@ -1,18 +1,27 @@
 Materialgirl
 ============
 
-This WordPress theme is made via two frameworks:
+This WordPress theme or frontend is developed via these frameworks:
 
 - Materializecss
 - _S
 
+## Log
+
+- [Create a theme on _S](http://underscores.me) and install the theme in WordPress.
+- Download Materializecss dependencies via Bower (`bower install materialize --save`)
+- Prepare the Materialize grid (the development started in `single.php` and the connected template parts)
+- Tweak pages, posts, index, custom pages, etc.
+
+## Sass
+
+- Compile the _S and Materialize styles to *one* file.
+- Automate and test via Gulp (coming soon).
 
 
+## _s
 
 [![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
-
-_s
-===
 
 Hi. I'm a starter theme called `_s`, or `underscores`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
 

@@ -86,7 +86,7 @@ if ( ! function_exists( 'materialgirl_entry_footer' ) ) :
 			sprintf(
 				wp_kses(
 					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Edit <span class="screen-reader-text">%s</span>', 'materialgirl' ),
+					__( '&nbsp; Edit <span class="screen-reader-text">%s</span>', 'materialgirl' ),
 					array(
 						'span' => array(
 							'class' => array(),

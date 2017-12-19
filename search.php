@@ -9,6 +9,7 @@
 
 get_header(); ?>
 
+<div class="col s12 m7 l8 xl8">
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main">
 
@@ -45,6 +46,7 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</section><!-- #primary -->
+</div><!-- .col -->
 
 <?php
 get_sidebar();

@@ -23,9 +23,8 @@ Materialize styles are imported, so we just need one style.css file.
 */
 
 // ==== BASIC STYLESHEET ===
-@import '_Sstyle';											// _S styles
-@import '../bower_components/materialize/sass/materialize'; 	// materialize styles
+@import '_Sstyle'; // _S styles
+@import '../bower_components/materialize/sass/materialize'; // materialize styles
 
 // === OTHER PARTIALS ===
-
-
+@import 'navigation'; // navigation

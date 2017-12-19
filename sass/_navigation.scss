@@ -1,0 +1,20 @@
+/**
+ * Navigation Styles
+ **/
+  
+/* colors */
+$tenebrae: 	#000;
+$lux: 		#fff;
+$hover: 	#0f0;
+$hoverBg: 	#293e45;
+
+#main-navigation, .menu-item {
+	background-color: $tenebrae;
+	
+	a {
+		color: $lux;	
+	}
+	a:hover {
+		color: $hover;	
+	}
+}

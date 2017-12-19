@@ -9,8 +9,6 @@
 
 get_header(); ?>
 
-	<div class="row">
-
 		<!-- THE CONTENT -->
 		<div class="col s12 m7 l8 xl8">
 			<div id="primary" class="content-area">
@@ -35,7 +33,5 @@ get_header(); ?>
 		</div><!-- .col (content) -->
 		
 			<?php get_sidebar(); ?>
-		
-
 
 <?php get_footer(); ?>

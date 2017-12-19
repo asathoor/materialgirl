@@ -3,13 +3,49 @@
  * purpose: layout details
  **/
 
+// google fonts
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Coiny');
+
+$fnt-Coiny: 'Coiny', cursive;
+$fmt-Archivo: 'Archivo Narrow', sans-serif;
+
 // header image 100% 
 #masthead {
 	img {
 	    max-width: 100%;
 	    height:auto;
     }
+    
+    p a, h1 a {
+		font-size: 2rem;    
+    }
 }
 
+// site title
+.site-title {
+	
+	a {
+		font-family: $fnt-Coiny;
+		margin-left: 1.2rem;
+		font-size: 1.2rem;		
+	}
+}
 
+// tag line
+.site-description {
+	margin-left: 1.2rem;
+}
 
+// navigation
+.navigation {
+	color: pink;
+	background-color: black;
+	a {
+		color: white;
+		margin-left: 1.2rem;
+		margin-right: 1.2rem;
+	}
+	a:hover {
+		color: green;	
+	}
+}

@@ -13,9 +13,8 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 ?>
 
 <!-- THE SIDEBAR -->
-<div class="col s12 m5 l4 xl4">		
-	<aside id="secondary" class="widget-area">
+<div class="col s12 m5 l4 xl4">
+	<aside id="secondary" class="widget-area float-text">
 		<?php dynamic_sidebar( 'sidebar-1' ); ?>
 	</aside><!-- #secondary -->
 </div><!-- .col -->
-

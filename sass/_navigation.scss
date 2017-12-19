@@ -3,18 +3,22 @@
  **/
   
 /* colors */
-$tenebrae: 	#000;
-$lux: 		#fff;
+$tenebrae: 	black;
+$lux: 		white;
 $hover: 	#0f0;
 $hoverBg: 	#293e45;
 
-#main-navigation, .menu-item {
+.main-navigation, .menu-item, #site-navigation {
 	background-color: $tenebrae;
 	
 	a {
 		color: $lux;	
+		background-color: $tenebrae;
 	}
 	a:hover {
-		color: $hover;	
+		color: $hover;
+		background-color: $tenebrae;	
 	}
 }
+
+ 

@@ -10,9 +10,10 @@
  */
 ?>
 </div><!-- .row -->
-	</div><!-- #content -->
+	</div><!-- #content /CONTENT -->
 
-	<footer id="colophon" class="site-footer">
+	<!-- FOOTER -->
+	<footer id="colophon" class="site-footer purple darken-3 valign-wrapper center">
 		<div class="site-info">
 			&copy; Per Thykjaer Jensen		
 		
@@ -30,13 +31,9 @@
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 
-<div class="clear"></div>
+<!-- /WRAPPERS -->
 </div><!-- .container -->
-
-
 </div><!-- #page -->
-
-
 
 <?php wp_footer(); ?>
 
@@ -47,11 +44,21 @@
 	
 	<!-- materialize js -->
 	<script id="materialgirl-materialize-js" src="<?php echo get_template_directory_uri(); ?>/bower_components/materialize/dist/js/materialize.min.js"></script>
+	
 
-	<!-- some scripts for effects -->
-	<!--script>
-     
-	</script-->
+	<!-- Materializecss tweaks -->
+	<script>
+		$( document ).ready(function() {
+    		console.log( "Jq ready!" );
+    		
+    		/* navigation */
+		    // Initialize collapse button
+  			$(".button-collapse").sideNav();
+			// Initialize collapsible (uncomment the line below if you use the dropdown variation)
+			$('.collapsible').collapsible();
+		});	
+	
+	</script>
 
 
 </body>

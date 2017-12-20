@@ -16,7 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 
 	<!--Let browser know website is optimized for mobile-->
-	<!meta name="viewport" content="width=device-width, initial-scale=1.0"/ -->
+	<!-- meta name="viewport" content="width=device-width, initial-scale=1.0"/ -->
 	<meta name="viewport" content="width=device-width">
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
@@ -34,10 +34,12 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'materialgirl' ); ?></a>
 
-	<header id="masthead" class="site-header">
+	<header id="masthead" class="site-header purple darken-3">
 
-		<?php the_header_image_tag(); ?><!-- custom header image -->	
-		<div class="site-branding">	
+			
+		<div class="site-branding">
+		
+			<?php the_header_image_tag(); ?><!-- custom header image -->	
 			<?php
 
 			the_custom_logo();
@@ -55,15 +57,27 @@
 			endif; ?>
 		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'materialgirl' ); ?></button>
+		<nav id="site-navigation" class="main-navigation black">
+			
+			<!-- materialcss menu headings -->
+			<div class="nav-wrapper">
+
+			<!-- /materialcss menu headings -->
+
+			<button class="menu-toggle  deep-orange darken-1" aria-controls="primary-menu" aria-expanded="false">
+				 <i class="material-icons">menu</i> 
+			</button>
 			<?php
-				wp_nav_menu( array(
+				wp_nav_menu( 
+					array(
 					'theme_location' => 'menu-1',
 					'menu_id'        => 'primary-menu',
-				) );
+					'container_class' => 'left black',
+					) 
+				);
 			?>
 		</nav><!-- #site-navigation -->
+		</div><!-- .nav-wrapper -->
 	</header><!-- #masthead -->
 
 	

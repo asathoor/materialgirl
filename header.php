@@ -34,10 +34,12 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'materialgirl' ); ?></a>
 
-	<header id="masthead" class="site-header">
+	<header id="masthead" class="site-header purple darken-3">
 
-		<?php the_header_image_tag(); ?><!-- custom header image -->	
-		<div class="site-branding">	
+			
+		<div class="site-branding">
+		
+			<?php the_header_image_tag(); ?><!-- custom header image -->	
 			<?php
 
 			the_custom_logo();

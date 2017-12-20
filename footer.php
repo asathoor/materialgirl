@@ -51,11 +51,16 @@
 
 	<!-- some scripts for effects -->
 	<script>
-     /* navigation */
-      // Initialize collapse button
-  $(".button-collapse").sideNav();
-  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
-  //$('.collapsible').collapsible();
+		$( document ).ready(function() {
+    		console.log( "Jq ready!" );
+    		
+    		/* navigation */
+		    // Initialize collapse button
+  			$(".button-collapse").sideNav();
+			// Initialize collapsible (uncomment the line below if you use the dropdown variation)
+			//$('.collapsible').collapsible();
+		});	
+	
 	</script>
 
 

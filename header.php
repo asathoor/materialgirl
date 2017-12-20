@@ -55,14 +55,14 @@
 			endif; ?>
 		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation">
+		<nav id="site-navigation" class="main-navigation black">
 			
 			<!-- materialcss menu headings -->
 			<div class="nav-wrapper">
-			<a href="#" class="brand-logo center">Content</a>
+
 			<!-- /materialcss menu headings -->
 
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+			<button class="menu-toggle  deep-orange darken-1" aria-controls="primary-menu" aria-expanded="false">
 				 <i class="material-icons">menu</i> 
 			</button>
 			<?php
@@ -70,7 +70,7 @@
 					array(
 					'theme_location' => 'menu-1',
 					'menu_id'        => 'primary-menu',
-					'container_class' => 'left',
+					'container_class' => 'left black',
 					) 
 				);
 			?>

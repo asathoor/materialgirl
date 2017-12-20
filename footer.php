@@ -47,11 +47,16 @@
 	
 	<!-- materialize js -->
 	<script id="materialgirl-materialize-js" src="<?php echo get_template_directory_uri(); ?>/bower_components/materialize/dist/js/materialize.min.js"></script>
+	
 
 	<!-- some scripts for effects -->
-	<!--script>
-     
-	</script-->
+	<script>
+     /* navigation */
+      // Initialize collapse button
+  $(".button-collapse").sideNav();
+  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+  //$('.collapsible').collapsible();
+	</script>
 
 
 </body>

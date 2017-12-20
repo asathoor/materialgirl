@@ -56,14 +56,26 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'materialgirl' ); ?></button>
+			
+			<!-- materialcss menu headings -->
+			<div class="nav-wrapper">
+			<a href="#" class="brand-logo center">Content</a>
+			<!-- /materialcss menu headings -->
+
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+				 <i class="material-icons">menu</i> 
+			</button>
 			<?php
-				wp_nav_menu( array(
+				wp_nav_menu( 
+					array(
 					'theme_location' => 'menu-1',
 					'menu_id'        => 'primary-menu',
-				) );
+					'container_class' => 'left',
+					) 
+				);
 			?>
 		</nav><!-- #site-navigation -->
+		</div><!-- .nav-wrapper -->
 	</header><!-- #masthead -->
 
 	

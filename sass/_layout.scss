@@ -3,21 +3,35 @@
  * purpose: layout details
  **/
 
+/**
+ * Materialize colors via SASS
+ 
+ .ilike-blue-container {
+    @extend .blue, .lighten-4;
+  }
+  
+**/
+
 // google fonts
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Coiny');
 
 $fnt-Coiny: 'Coiny', cursive;
 $fmt-Archivo: 'Archivo Narrow', sans-serif;
 
+// vars
+$margin: 1.3rem;
+
 // header image 100% 
 #masthead {
+	background-image: url(images/header_bg.jpg);
+		
 	img {
 	    max-width: 100%;
 	    height:auto;
     }
     
     p a, h1 a {
-		font-size: 2rem;    
+		font-size: large;    
     }
 }
 
@@ -26,26 +40,67 @@ $fmt-Archivo: 'Archivo Narrow', sans-serif;
 	
 	a {
 		font-family: $fnt-Coiny;
-		margin-left: 1.2rem;
-		font-size: 1.2rem;		
 	}
 }
 
 // tag line
-.site-description {
-	margin-left: 1.2rem;
+.site-description, .site-info {
+
 }
+
 
 // navigation
 .navigation {
-	color: pink;
-	background-color: black;
+	@extend .teal, .lighten-1;
+	
 	a {
 		color: white;
-		margin-left: 1.2rem;
-		margin-right: 1.2rem;
+		margin-left: $margin;
+		margin-right: $margin;
 	}
 	a:hover {
 		color: green;	
 	}
+}
+
+// margin around content
+h1,h2,h3,h4,h5,h6,
+p,
+table,dl,
+address,
+blockquote,
+.entry-meta,.entry-footer,
+img {
+	margin-left: $margin;
+}
+
+// quotes
+blockquote {
+	border-left: 5px solid #6a1b9a;
+}
+
+
+// footer
+#colophon {
+	@extend .teal, .lighten-2;
+	color: white;
+	text-align: center;
+	padding-top: $margin;
+	padding-bottom: $margin;
+	
+	a {
+		color: yellow;
+	}
+	
+	a:hover {
+		color: silver;	
+	}
+}
+
+.site-info {
+	margin-left: $margin;
+}
+
+.nav-next a {
+	margin-right: $margin;
 }

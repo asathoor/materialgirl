@@ -13,6 +13,10 @@
 	</div><!-- #content /CONTENT -->
 
 	<!-- FOOTER -->
+<!-- THE CONTENT -->
+<div class="col s12">
+	
+	
 	<footer id="colophon" class="site-footer purple darken-3 valign-wrapper center">
 		<div class="site-info">
 			&copy; Per Thykjaer Jensen		
@@ -30,6 +34,8 @@
 			?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
+
+</div><!-- .col -->
 
 <!-- /WRAPPERS -->
 </div><!-- .container -->

@@ -17,7 +17,7 @@ get_header(); ?>
 	<!-- THE CONTENT -->
 	<div class="col s12 m7 l8 xl8">
 
-		<div id="primary" class="content-area flow-text">
+		<div id="primary" class="content-area">
 			<main id="main" class="site-main">
 	
 			<?php
@@ -27,7 +27,7 @@ get_header(); ?>
 				
 								
 					<header>
-						<h1 class="page-title screen-reader-text flow-text"><?php single_post_title(); ?></h1>
+						<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
 					</header>
 	
 				<?php

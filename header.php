@@ -89,8 +89,9 @@
 					) 
 				);
 			?>
+			</div><!-- .nav-wrapper -->
 		</nav><!-- #site-navigation -->
-		</div><!-- .nav-wrapper -->
+		
 	</header><!-- #masthead -->
 
 	

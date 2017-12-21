@@ -6,6 +6,22 @@ This WordPress theme or frontend is developed via these frameworks:
 - Materializecss
 - _S
 
+## Install Dependencies
+
+In order to get dependencies make sure that you have Nodejs and npm. First get the npm dependencies:
+
+npm install
+
+then run:
+
+bower install
+
+Now you can use Gulp, in a terminal use:
+
+gulp
+
+Gulp will watch over changes in SASS-files and compile the SASS to the style.css file.
+
 ## Log
 
 - [Create a theme on _S](http://underscores.me) and install the theme in WordPress.

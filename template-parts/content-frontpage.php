@@ -19,7 +19,7 @@
 		
 	</header><!-- .entry-header -->
 
-	<?php materialgirl_post_thumbnail(); ?>
+	<?php //materialgirl_post_thumbnail(); ?>
 
 	<div class="entry-content">
 

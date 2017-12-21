@@ -72,10 +72,7 @@
 
 		<nav id="site-navigation" class="main-navigation black">
 			
-			<!-- materialcss menu headings -->
-			<div class="nav-wrapper">
-
-			<!-- /materialcss menu headings -->
+			<div class="nav-wrapper"><!-- materialcss menu headings -->
 
 			<button class="menu-toggle  deep-orange darken-1" aria-controls="primary-menu" aria-expanded="false">
 				 <i class="material-icons">menu</i> 
@@ -89,8 +86,9 @@
 					) 
 				);
 			?>
+			</div><!-- .nav-wrapper -->
 		</nav><!-- #site-navigation -->
-		</div><!-- .nav-wrapper -->
+		
 	</header><!-- #masthead -->
 
 	

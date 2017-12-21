@@ -22,6 +22,6 @@ $hoverBg: 	#293e45;
 }
 
 // pagebuilder covered the memu pop up
-.main-navigation {
-	z-index: 999 !important;
+.main-navigation, .menu {
+	z-index: 200 !important;
 }

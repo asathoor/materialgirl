@@ -13,6 +13,19 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
+
+	<!--
+	
+		WordPress Theme: Materialgirl
+		By: Per Thykjaer Jensen, dec. 2017.
+		Based on: Materializecss.
+		Theme Licence: GPLv2.
+		
+		Since the theme is made by Materializecss 
+		the theme was named after a song by Madonna.
+	
+	-->
+
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 
 	<!--Let browser know website is optimized for mobile-->
@@ -39,20 +52,20 @@
 			
 		<div class="site-branding">
 		
-			<?php the_header_image_tag(); ?><!-- custom header image -->	
+			<?php // the_header_image_tag(); ?><!-- custom header image -->	
 			<?php
 
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) : ?>
-				<h1 class="site-title flow-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<?php else : ?>
-				<p class="site-title flow-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 			<?php
 			endif;
 
 			$description = get_bloginfo( 'description', 'display' );
 			if ( $description || is_customize_preview() ) : ?>
-				<p class="site-description flow-text"><?php echo $description; /* WPCS: xss ok. */ ?></p>
+				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
 			<?php
 			endif; ?>
 		</div><!-- .site-branding -->
@@ -82,5 +95,5 @@
 
 	
 	<div id="content" class="site-content">
-	<div class="container">
+	<div class="container white">
 		<div class="row">
